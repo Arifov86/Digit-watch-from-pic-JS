@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Rick and Morty";
+  src: url(../fonts/get_schwifty.ttf);
+}
+
+body {
+  background-color: black;
+  font-family: "Rick and Morty";
+}
+
+#time img {
+  width: 10%;
+  height: auto;
+}
+
+#time {
+  width: 50%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 30px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  outline: 1px dashed #156e72;
+  border-radius: 30px;
+}
+
+.main {
+  width: 50%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  color: #156e72;
+  font-size: 60px;
+  text-shadow: 3px 4px 1px #f4ff2d;
+  margin-top: 200px;
+  outline: 1px dashed #999b73;
+  border-radius: 30px;
+}
+
+.person {
+  width: 200px;
+}
+
+.main p {
+  text-align: center;
+  line-height: 30px;
+}
+/*# sourceMappingURL=main.css.map */
